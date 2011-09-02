@@ -1,29 +1,14 @@
-# source 'http://rubygems.org'
-# # Framework
-# gem 'sinatra'
-# gem 'sinatra-static-assets'
-# # HTML rendring engine HAML
-# gem 'haml'
-# # CSS rendring engine SASS/SCSS
-# gem 'sass'
-# # HTML5Boilerplate helper
-# #gem 'html5-boilerplate'
-# # jQuery javascript framework
-# gem 'coffee-script'
-# # JS runtime
-# gem "execjs"
-# gem "therubyracer"
-# 
-# 
-# # Loading assets
-# gem 'sprockets'
-
 source "http://rubygems.org"
-
+# Framework
 gem "sinatra"
+# CoffeeScript
 gem 'coffee-script'
-gem "uglifier"
+# CSS rendring engine Sass/SCSS
 gem 'sass'
+# HTML rendring engine Haml
 gem 'haml'
+# Asset pipeline
 gem 'sprockets'
-# gem 'rack-test'
+# JS runtime
+gem "execjs"
+gem "therubyracer"
