@@ -5,14 +5,15 @@
 		%title KDNMEDIA : a different kind of digital store
 		%meta{ :author => 'description', :content => 'KDNMEDIA'}
 		%meta{ :name => 'viewport', :content => 'width=device-width, initial-scale=1.0'}
-		%link{:rel => "stylesheet", :type => "text/css", :href => "/css/stylesheet.css"}
-		%script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'}
-		%script{:src => '/js/application.js'}
+		%link{:rel => "stylesheet", :type => "text/css", :href => "/assets/application.css"}
 	%body{:class => 'scalable'}
 		%header{:class => 'grid_12-12'}
-			%h1 Kenneth Dahlstrøm Nordahl
+			%h1 KDNMEDIA
 		=yield
 		%footer{:class => 'grid_12-12'}
 			%p
 				%small a <a href="http://nordahl.me">nordahl.me</a> product
 				\| <a href="/support" title="Support"><mark class="support">support</mark></a> | <a href="/tos" title="Terms of service"><mark class="tos">TOS</mark></a>
+		%script{:src => 'https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js'}
+	
+		%script{:src => '/assets/application.js'}

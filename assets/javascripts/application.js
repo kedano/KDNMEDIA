@@ -1,0 +1,2 @@
+//= require nivoslider
+//= require kdnmedia
